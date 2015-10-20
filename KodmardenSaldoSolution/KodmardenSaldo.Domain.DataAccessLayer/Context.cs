@@ -6,7 +6,7 @@ namespace KodmardenSaldo.Domain.DataAccessLayer
 {
     public class Context : DbContext
     {
-        public Context() : base("KodmardenSaldoContext")
+        public Context() : base("Context")
         {
 
         }

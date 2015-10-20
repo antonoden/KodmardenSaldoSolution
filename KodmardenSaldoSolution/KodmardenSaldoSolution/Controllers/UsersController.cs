@@ -52,6 +52,7 @@ namespace KodmardenSaldo.UI.Web.Controllers
         }
 
         // POST: Users/Create
+        [Route("Create")]
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -88,6 +89,7 @@ namespace KodmardenSaldo.UI.Web.Controllers
         }
 
         // POST: Users/Edit/5
+        [Route("Edit/{id}")]
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -122,6 +124,7 @@ namespace KodmardenSaldo.UI.Web.Controllers
         }
 
         // POST: Users/Delete/5
+        [Route("Delete/{id}")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
