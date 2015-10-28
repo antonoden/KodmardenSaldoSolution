@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodmardenSaldo.Web.Ui", "KodmardenSaldoSolution\KodmardenSaldo.Web.Ui.csproj", "{66790F69-6897-45DF-9A9C-89A4E66D2B9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodmardenSaldo.Web.Ui", "KodmardenSaldo.Web.Ui\KodmardenSaldo.Web.Ui.csproj", "{66790F69-6897-45DF-9A9C-89A4E66D2B9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9BC92470-0242-407A-8BB9-B54F1A20AEAF}"
 EndProject
