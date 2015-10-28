@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using KodmardenSaldo.Domain.DataAccessLayer;
 using KodmardenSaldo.Domain.Entities;
 
-namespace KodmardenSaldo.UI.Web.Controllers
+namespace KodmardenSaldo.Web.Ui.Controllers
 {
     [RoutePrefix("Members")]
     public class MembersController : Controller

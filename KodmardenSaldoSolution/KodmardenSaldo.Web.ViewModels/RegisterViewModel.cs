@@ -1,27 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace KodmardenSaldo.UI.Web.Models
+namespace KodmardenSaldo.Web.ViewModels
 {
-    public class AccountModels
-    {
-    }
-
-    public class LoginViewModel
-    {
-        [Required(ErrorMessage = "Please enter Username")]
-        [Display(Name = "Username")]
-        public string Username { get; set; }
-
-        [Required(ErrorMessage = "Please enter password")]
-        [DataType(DataType.Password)]
-        [Display(Name = "Password")]
-        public string Password { get; set; }
-    }
-
     public class RegisterViewModel
     {
         [Required]

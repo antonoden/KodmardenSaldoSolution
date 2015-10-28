@@ -1,11 +1,7 @@
-﻿using KodmardenSaldo.UI.Web.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using KodmardenSaldo.Web.ViewModels;
 using System.Web.Mvc;
 
-namespace KodmardenSaldoSolution.Controllers
+namespace KodmardenSaldo.Web.Ui.Controllers
 {
     public class AccountController : Controller
     {
